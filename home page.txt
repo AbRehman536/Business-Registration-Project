@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bussiness Registration</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/HOME.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        text-align: center;
+        width: 36%;
+        margin: 15px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: lightgray;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    button {
+            background-color: black;
+            color: #fff;
+            font-size: 20px;
+            padding: 10px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+
+    }
+
+    .container {
+         font-family: arial;
+         font-size: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+  
+
+    .container h1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .container h1:hover{
+        color: lightgray;
+    }
+
+        .About{
+            width: 90%;
+            margin: 60px ;
+            padding: 20px;
+            margin-left: 50px;
+            margin-top: 170px;
+        }
+        .About h1{
+             color: #007bff;
+
+        }
+        .service{
+            width: 90%;
+            margin: 60px ;
+            padding: 20px;
+            margin-left: 50px;
+            margin-top: 150px;
+        }
+
+        .service h1{
+            color: #007bff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 60px ;
+            padding: 20px;
+            margin-left: 50px;
+            
+            
+        }
+
+        section h1 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info strong {
+
+            display: block;
+            color: #007bff;
+        }
+    
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="images/mb.jpg" alt="">
+            <div>MY BUSINESS <br>HUB</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#push1">About Us</a></li>
+                <li><a href="#push2">Services</a></li>
+                <li><a href="#push3">Contact us</a></li>
+                
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button onclick="document.location='file:///C:/Users/ab/Desktop/web%20assignments/signup.html'">REGISTRATION</button>
+            <button onclick="document.location='file:///C:/Users/ab/Desktop/web%20assignments/login%20BTN.html'">LOGIN</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>WELCOME TO <br> MY BUSINESS HUB</h1>
+    </div> 
+     <div class="About">
+            
+        <h1 id="push1">About Us</h1>
+        <p>
+            Welcome to our website! At MY BUSINESS HUB, we are dedicated to register your business in consolidate fields.
+        </p>
+        <p>
+             At my business hub, we register your business in consolidate form, Different business owners come and register their businesses. Established in 2000, we have been providing our customer to store thier information in safe state, our taget is to satisfy the customer with our work and gain customer satisfaction.
+        </p>
+        <p>
+            <h3 style="color: skyblue;">Our Mission</h3>
+            <p>Our mission is to satify the customer by providing them a safe and secure website to register their business and information. This is the main reason of eshtablishing this company.</p>
+        </p>
+        <p>
+            <h3 style="color: skyblue;">What set us Apart</h3>
+            <p>At my business hub, we pride ourselves on unique aspects, such as quality, innovation, customer service, etc. Here are a few reasons why clients choose us:
+                <ul>
+                    <li><b style="color: skyblue;"> Quality Assurance:</b> We are committed to delivering products/services of the highest quality.</li>
+                    <li><b style="color: skyblue;">Innovation:</b> We stay ahead in the industry by embracing the latest technologies and trends.</li>
+                    <li><b style="color: skyblue;">Customer-Centric Approach:</b> Our customers are at the heart of everything we do. Our customer gives good feedback after using our website. </li>
+                </ul>
+                </p>
+        </p>
+         <p>
+            <h3 style="color: skyblue;">Join Us on Our Journey</h3>
+            <p>We invite you to explore my business hub and join us on our journey to improve in managing the different businesses in consolidate fields . Whether you're a customer, partner, or team member, we look forward to building meaningful connections and achieving success together.<br>
+                <br>
+
+            Thank you for choosing MY BUSINESS HUB!.</p>
+        </p>
+
+        </div>
+    
+
+        <div class="service">
+            <h1 id="push2">Services</h1>
+            <p>WE are providing the best, safe and secure plateform for business owners to register their bussiness in consolidate fields.</p>
+            <ul>
+                <li>Easy and Safe: Its easy to use and secure website for customers.</li>
+                <li>Registraton: Customer should register their business and then admin give username and password to the customer for login in future use. </li>
+                <li>Login: Customer get username(email) or password, here they check about their profile, business information, tasks, plans etc. </li>
+            </ul>
+        </div>
+    <div>
+    <section>
+      
+        <h1 id="push3">Contact Us</h1>
+        <p>
+            We would love to hear from you! Feel free to contact us through the following methods:
+        </p>
+
+        <div class="contact-info">
+            <p>
+                <strong>Email:</strong> info@example.com
+            </p>
+            <p>
+                <strong>Phone:</strong> +1 (555) 123-4567
+            </p>
+            <p>
+                <strong>Address:</strong> 123 Main Street, Cityville, State, 12345
+            </p>
+            </section>
+        </div>
+       
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<?php
+include 'Config.php';
+if (isset($_POST['login_btn'])) {
+	$email=$_POST['email'];
+	$pass=$_POST['password'];
+
+	$select="SELECT * FROM registration WHERE email='$email' && password='$pass'";
+	$query=mysqli_query($config,$select);
+	$row=mysqli_num_rows($query);
+	$fetch=mysqli_fetch_array($query);
+	if($row==1){
+		$username=$fetch['username'];
+		session_start();
+		$_SESSION['username']=$username;
+		header('location:home.php');
+
+	}
+	else{
+		echo "<p> Invalid email/password</p>";
+	}
+
+}
+?>

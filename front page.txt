@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bussiness Registration</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/HOME.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        text-align: center;
+        width: 36%;
+        margin: 15px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: lightgray;
+
+    }
+
+   /* .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }*/
+    button {
+            background-color: black;
+            color: #fff;
+            font-size: 20px;
+            padding: 10px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+
+    }
+
+    .container {
+         font-family: arial;
+         font-size: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+  
+
+    .container h1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .container h1:hover{
+        color: lightgray;
+    }
+    </style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="images/mb.jpg" alt="">
+            <div>MY BUSINESS <br>HUB</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="file:///C:/Users/ab/Desktop/web%20assignments/business.html#push1">Home</a></li>
+              
+                
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button onclick="document.location='file:///C:/Users/ab/Desktop/web%20assignments/dashboard3.html'">DASHBOARD</button>
+            <button onclick="document.location='file:///C:/Users/ab/Desktop/web%20assignments/profile.html'">PROFILE</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>WELCOME TO <br> MY BUSINESS HUB</h1>
+    </div> 
+    </body>
+
+</html>
